@@ -1,9 +1,7 @@
 return {
-  { "edeneast/nightfox.nvim" },
-  {
-    "LazyVim/LazyVim",
-    opts = {
-      colorscheme = "dayfox",
-    },
-  },
+  "rose-pine/neovim",
+  name = "rose-pine",
+  config = function()
+    vim.cmd("colorscheme rose-pine")
+  end,
 }
