@@ -115,3 +115,5 @@ case ":$PATH:" in
 esac
 # pnpm end
 export PATH="/opt/homebrew/opt/postgresql@17/bin:$PATH"
+export PATH="/Users/larsvankoningsveld/.config/herd-lite/bin:$PATH"
+export PHP_INI_SCAN_DIR="/Users/larsvankoningsveld/.config/herd-lite/bin:$PHP_INI_SCAN_DIR"
