@@ -7,6 +7,15 @@ vim.api.nvim_create_autocmd("FileType", {
   command = "set lbr",
 })
 
+-- Disable autoformat for lua files
+vim.api.nvim_create_autocmd({ "FileType" }, {
+  pattern = { "php" },
+  callback = function()
+    vim.o.tabstop = 4
+    vim.o.shiftwidth = 4
+  end,
+})
+
 vim.api.nvim_create_autocmd("FileType", {
   pattern = { "gitcommit", "markdown" },
   command = "set nospell",
