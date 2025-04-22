@@ -1,6 +1,6 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
-export PATH="$PATH:/opt/homebrew/bin"
+# export PATH="$PATH:/opt/homebrew/bin"
 
 source ~/.aliases
 
@@ -107,13 +107,3 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# pnpm
-export PNPM_HOME="/Users/larsvankoningsveld/Library/pnpm"
-case ":$PATH:" in
-  *":$PNPM_HOME:"*) ;;
-  *) export PATH="$PNPM_HOME:$PATH" ;;
-esac
-# pnpm end
-export PATH="/opt/homebrew/opt/postgresql@17/bin:$PATH"
-export PATH="/Users/larsvankoningsveld/.config/herd-lite/bin:$PATH"
-export PHP_INI_SCAN_DIR="/Users/larsvankoningsveld/.config/herd-lite/bin:$PHP_INI_SCAN_DIR"
