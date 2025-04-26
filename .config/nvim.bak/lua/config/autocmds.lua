@@ -7,7 +7,7 @@ vim.api.nvim_create_autocmd("FileType", {
   command = "set lbr",
 })
 
--- Disable autoformat for lua files
+-- Set indentation for php
 vim.api.nvim_create_autocmd({ "FileType" }, {
   pattern = { "php" },
   callback = function()
