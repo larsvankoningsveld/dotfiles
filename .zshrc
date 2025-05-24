@@ -79,6 +79,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 bindkey '^ ' forward-word
+bindkey '^e' autosuggest-accept
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
