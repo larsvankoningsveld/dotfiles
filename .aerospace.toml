@@ -86,6 +86,17 @@ outer.right = 0
 
 # All possible commands: https://nikitabobko.github.io/AeroSpace/commands
 
+[workspace-to-monitor-force-assignment]
+1 = ['main', 'built-in']
+2 = ['main', 'built-in']
+3 = ['secondary', 'built-in']
+4 = ['secondary', 'built-in']
+5 = ['secondary', 'built-in']
+6 = ['secondary', 'built-in']
+7 = ['secondary', 'built-in']
+8 = ['main', 'built-in']
+9 = ['main', 'built-in']
+
 # See: https://nikitabobko.github.io/AeroSpace/commands#exec-and-forget
 # You can uncomment the following lines to open up terminal with alt + enter shortcut
 # (like in i3)
@@ -95,7 +106,8 @@ outer.right = 0
 #     activate
 # end tell'
 # '''
-
+# o
+#
 # See: https://nikitabobko.github.io/AeroSpace/commands#layout
 alt-slash = 'layout tiles horizontal vertical'
 alt-comma = 'layout accordion horizontal vertical'
